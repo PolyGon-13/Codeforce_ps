@@ -1,2 +1,1 @@
-# codeforce_ps
-codeforce problem solving
+## Codeforce_ps
