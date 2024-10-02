@@ -41,7 +41,7 @@ int main()
 	cout.tie(NULL);
 	
 	string s;
-	regex target("h.*e.*l.*o");
+	regex target("h.*e.*l.*l.*o");
 	
 	cin>>s;
 	if(regex_search(s,target))
