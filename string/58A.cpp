@@ -26,3 +26,29 @@ int main()
 	
 	return 0;
 }
+
+/*
+// 정규표현식을 이용한 풀이
+#include <iostream>
+#include <regex>
+
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	
+	string s;
+	regex target("h.*e.*l.*o");
+	
+	cin>>s;
+	if(regex_search(s,target))
+		cout<<"YES\n";
+	else
+		cout<<"NO\n";
+	
+	return 0;
+}
+*/
